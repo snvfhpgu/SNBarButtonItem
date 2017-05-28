@@ -56,7 +56,7 @@ static const void *kButtonImage = &kButtonImage;
     [customView addTarget:item action:@selector(itemAction:) forControlEvents:(UIControlEventTouchUpInside)];
     
     item.customView = customView;
-    item.buttonTitleColor = mainFontColor;
+//    item.buttonTitleColor = [UIColor ];
     item.block = actionBlock;
     item.target = self;
     return item;
